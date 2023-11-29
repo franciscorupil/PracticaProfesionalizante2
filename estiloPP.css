@@ -157,7 +157,7 @@ body{
 .nosotros .fila .col .contenedor-titulo .info h2 {
     font-size: 3rem;
 }
-.nosotros .fila .col p{
+.nosotros .fila .col p {
     margin-bottom: 10px;
     line-height: 20px;
 }
@@ -197,7 +197,7 @@ body{
     position: relative;
 }
 .servicios .contenido-servicios {
-    background: linear-gradient(rgba(0,14,41,.6), rgba(0,7,78,.7)), url(imagen\ servicios\ 2.jpg);
+    background: linear-gradient(rgba(0,14,41,.6), rgba(0,7,78,.7)), url(imagen\ servicios.jpg);
     background-size: cover;
     background-position: center center;
     margin: auto;
@@ -267,5 +267,157 @@ body{
 .servicios .info-servicios p {
     line-height: 30px;
 }
+
+/* SECCION ENTRENAMIENTOS*/
+
+.entrenamientos {
+    max-width: 1100px;
+    margin: auto;
+    background-color: #dde1dde9;
+    padding: 100px 20px;
+}
+.entrenamientos .fila {
+    display: flex;
+    align-items: center;
+}
+.entrenamientos .fila .col {
+    width: 50%;
+}
+.entrenamientos .fila .col img {
+    width: 80%;
+    display: block;
+    margin: auto;
+    margin-bottom: 50px;
+}
+.entrenamientos .fila .col .contenedor-titulo {
+    display: flex;
+    align-items: center;
+}
+.entrenamientos .fila .col .contenedor-titulo .numero {
+    color: #ff1133;
+    font-weight: bold;
+    display: block;
+    font-size: 5rem;
+}
+.entrenamientos .fila .col .contenedor-titulo .info {
+    margin-left: 30px;
+}
+.entrenamientos .fila .col .contenedor-titulo .info .frase {
+    color: #ff1133;
+}
+.entrenamientos .fila .col .contenedor-titulo .info h2 {
+    font-size: 3rem;
+}
+.entrenamientos .fila .col p{
+    margin-bottom: 10px;
+    line-height: 20px;
+}
+.entrenamientos .fila .p-especial {
+    font-weight: bold;
+}
+.entrenamientos .fila .col li {
+    margin-bottom: 10px;
+    line-height: 20px;
+}
+.entrenamientos .fila li span {
+    font-weight: bold;
+    color: #ff1133;
+}
+
+/* SECCION ENTRENAMIENTOS*/
+
+.profesores {
+    max-width: 1100px;
+    margin: auto;
+    background-color: #dde1dde9;
+    padding: 100px 20px;
+}
+.profesores .fila {
+    display: flex;
+    align-items: center;
+}
+.profesores .fila .col {
+    width: 50%;
+}
+.profesores .fila .col img {
+    width: 80%;
+    display: block;
+    margin: auto;
+    margin-bottom: 50px;
+}
+.profesores .fila .col .contenedor-titulo {
+    display: flex;
+    align-items: center;
+}
+.profesores .fila .col .contenedor-titulo .numero {
+    color: #ff1133;
+    font-weight: bold;
+    display: block;
+    font-size: 5rem;
+    margin-bottom: 100px;
+}
+.profesores .fila .col .contenedor-titulo .info {
+    margin-left: 30px;
+}
+.profesores .fila .col .contenedor-titulo .info h2 {
+    font-size: 3rem;
+    padding-bottom: 20px;
+}
+.profesores .fila .col li {
+    margin-bottom: 10px;
+    line-height: 20px;
+    font-weight: bold;
+    color: #ff1133;
+}
+
+/* SECCION GALERIA*/
+
+.galeria {
+    color: #fff;
+    background: linear-gradient(rgba(0,14,41,.6), rgba(0,7,78,.7)), url(imagen\ pp2\ 5.jpg);
+    background-size: cover;
+    background-position: center center;
+    padding: 100px 0;
+}
+
+.galeria .contenido-seccion {
+    max-width: 1100px;
+    margin: auto;
+    padding: 0 20px;
+}
+.galeria .contenido-seccion .contenedor-titulo {
+    display: flex;
+    align-items: center;
+}
+.galeria .contenido-seccion .contenedor-titulo .numero {
+    color: #ff1133;
+    font-weight: bold;
+    display: block;
+    font-size: 5rem;
+}
+.galeria .contenido-seccion .contenedor-titulo .info {
+    margin-left: 30px;
+}
+.galeria .contenido-seccion .contenedor-titulo .info .frase {
+    color: #ff1133;
+}
+.galeria .contenido-seccion .contenedor-titulo .info h2 {
+    font-size: 3rem;
+}
+.galeria .fila {
+    display: flex;
+    padding: 10px;
+}
+.galeria .fila .col img {
+    width: 100%;
+    display: block;
+    background-size: cover;
+    width: 350px;
+    height: 300px;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+/* SECCION CONTACTO*/
 
 
