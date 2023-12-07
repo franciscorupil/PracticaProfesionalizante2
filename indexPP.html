@@ -16,20 +16,21 @@
         <header>
             <h1>Complex <span class="txtRojo">Gym</span></h1>
             <nav id="nav">
-                <a href="#inicio">Inicio</a>
-                <a href="#nosotros">Nosotros</a>
-                <a href="#servicios">Servicios</a>
-                <a href="#entrenamientos">Entrenamientos</a>
-                <a href="#profesores">Profesores</a>
-                <a href="#galeria">Galeria</a>
-                <a href="#contacto">Contacto</a>
+                <a href="#inicio" onclick="seleccionar()">Inicio</a>
+                <a href="#nosotros" onclick="seleccionar()">Nosotros</a>
+                <a href="#servicios" onclick="seleccionar()">Servicios</a>
+                <a href="#entrenamientos" onclick="seleccionar()">Entrenamientos</a>
+                <a href="#profesores" onclick="seleccionar()">Profesores</a>
+                <a href="#galeria" onclick="seleccionar()">Galeria</a>
+                <a href="#contacto" onclick="seleccionar()">Contacto</a>
+                <a href="formulario.html">Registrarse</a>
             </nav>
             <div class="redes">
-                <a href=""><i class="fa-brands fa-facebook"></i></a>
-                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href="http://wa.me/+5493472545391" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="https://www.instagram.com/complex.mj/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
             </div>
-            <div class="nav-responsive" id="icono-nav">
-                <i class="fa-solid fa-bars"></i>
+            <div class="nav-responsive" id="icono-nav" onclick="mostrarOcultarMenu()">
+                <a href="javascript:void(0)"><i class="fa-solid fa-bars"></i></a>
             </div>
         </header>
     </div>
@@ -251,11 +252,56 @@
         </div>
     </section>
 
-    <!--SECCION GALERIA-->
+    <!--SECCION CONTACTO-->
 
     <section id="contacto" class="contacto">
-        
+        <div class="contenido-seccion">
+            <div class="contenedor-titulo">
+                <div class="numero">
+                    06
+                </div>
+                <div class="info">
+                    <span class="frase">Escribinos tu consulta</span>
+                    <h2>Contacto</h2>
+                </div>                
+            </div>
+            <div class="fila">
+                <div class="col">
+                    <input type="text" placeholder="Ingrese Mail">
+                </div>
+                <div class="col">
+                    <input type="text" placeholder="Ingrese Nombre">
+                </div>
+            </div>
+            <div class="mensaje">
+                <textarea name="" id="" cols="30" rows="10" placeholder="Ingrese Mensaje"></textarea>
+                <button>Enviar Mensaje</button>
+            </div>
+            <div class="fila-datos">
+                <div class="col">
+                    <i class="fa-solid fa-location-dot"></i>Avellaneda 702   
+                </div>
+                <div class="col">
+                    <i class="fa-solid fa-phone"></i>3474545391   
+                </div>
+                <div class="col">
+                    <i class="fa-solid fa-clock"></i>Lunes a Viernes de 7:00h - 21:00h   
+                </div>
+            </div>
+        </div>
     </section>
+
+    <footer>
+        <div class="texto">
+            <p>2023 - <span class="txtRojo">Complex</p>
+        </div>
+        <div class="redes">
+            <a href="http://wa.me/+5493472545391" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="https://www.instagram.com/complex.mj/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+    </footer>
+
+    <script src="appPP.js"></script>
 
 </body>
 </html>
